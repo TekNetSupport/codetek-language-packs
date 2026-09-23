@@ -32,10 +32,10 @@ If a pack is unavailable, declined, or fails verification, CodeTek keeps the fil
 | SQL | `.sql` | Bundled with CodeTek |
 | HTML | `.html`, `.htm` | Bundled with CodeTek |
 | XML / SVG | `.xml`, `.svg` | Bundled with CodeTek |
-| YAML | `.yaml`, `.yml` | Registry candidate |
-| Go | `.go` | Registry candidate |
-| Java | `.java` | Registry candidate |
-| C / C++ | `.c`, `.h`, `.cpp` | Registry candidate |
+| YAML | `.yaml`, `.yml` | Available in v1.0.0 |
+| Go | `.go` | Available in v1.0.0 |
+| Java | `.java` | Available in v1.0.0 |
+| C / C++ | `.c`, `.h`, `.cpp` | Available in v1.0.0 |
 
 The catalog is intentionally conservative. A language is not listed as downloadable until its pack, license, checksum, and release metadata have been reviewed.
 

@@ -1,7 +1,67 @@
 {
   "schemaVersion": 1,
   "registry": "CodeTek Language Packs",
-  "registryVersion": "0.1.0",
-  "releaseOrigin": "https://github.com/TekNetSupport/codetek-language-packs/releases",
-  "packs": []
+  "registryVersion": "1.0.0",
+  "packs": [
+    {
+      "id": "yaml",
+      "version": "1.0.0",
+      "extensions": [
+        ".yaml",
+        ".yml"
+      ],
+      "asset": "https://github.com/TekNetSupport/codetek-language-packs/releases/download/v1.0.0/yaml-1.0.0.js",
+      "sha256": "fda7ea9ae7c1170f14f5fc776fddeb9719429433a9295eec9ebecbbe8f740a2f",
+      "license": "MIT",
+      "upstream": "@codemirror/lang-yaml"
+    },
+    {
+      "id": "go",
+      "version": "1.0.0",
+      "extensions": [
+        ".go"
+      ],
+      "asset": "https://github.com/TekNetSupport/codetek-language-packs/releases/download/v1.0.0/go-1.0.0.js",
+      "sha256": "6396be37216068f9ff6bd1ca28a7eb0f5898b2b5c2e0adf0ddf5e0a3efd36a8d",
+      "license": "MIT",
+      "upstream": "@codemirror/lang-go"
+    },
+    {
+      "id": "java",
+      "version": "1.0.0",
+      "extensions": [
+        ".java"
+      ],
+      "asset": "https://github.com/TekNetSupport/codetek-language-packs/releases/download/v1.0.0/java-1.0.0.js",
+      "sha256": "14660996560fe506fe93da4d1a2eba2c78ada7cdcc066f2ba033bfba416c64f8",
+      "license": "MIT",
+      "upstream": "@codemirror/lang-java"
+    },
+    {
+      "id": "cpp",
+      "version": "1.0.0",
+      "extensions": [
+        ".c",
+        ".h",
+        ".cpp",
+        ".cc",
+        ".cxx"
+      ],
+      "asset": "https://github.com/TekNetSupport/codetek-language-packs/releases/download/v1.0.0/cpp-1.0.0.js",
+      "sha256": "af427d1a65fb2b3b52f7d8fe2f37413ca4596705f0ab5ddb244aaeb1e893e907",
+      "license": "MIT",
+      "upstream": "@codemirror/lang-cpp"
+    },
+    {
+      "id": "php",
+      "version": "1.0.0",
+      "extensions": [
+        ".php"
+      ],
+      "asset": "https://github.com/TekNetSupport/codetek-language-packs/releases/download/v1.0.0/php-1.0.0.js",
+      "sha256": "1c88f489c4d77ff9ec2db616f10aea37fb4b5026d9930bb7001f6e786a075878",
+      "license": "MIT",
+      "upstream": "@codemirror/lang-php"
+    }
+  ]
 }
