@@ -6,7 +6,7 @@ This repository is the public distribution point for optional CodeMirror languag
 
 ## Why this repository exists
 
-CodeTek is designed to start quickly and remain useful offline. Core editor support is bundled with the application, while less common languages can be installed only when a workspace needs them. Every pack is published as an immutable release asset and described by a signed, hash-pinned manifest.
+CodeTek is designed to start quickly and remain useful offline. Core editor support is bundled with the application, while less common languages can be installed only when a workspace needs them. Every pack is published as an immutable release asset and described by a hash-pinned manifest. Release signing is planned before unattended production updates are enabled.
 
 The result is a clear user-controlled flow:
 
@@ -57,6 +57,7 @@ The manifest records the language identifier, supported extensions, CodeMirror c
 - Pack assets are verified before they are cached or executed.
 - The application never installs arbitrary npm packages at runtime.
 - Declining a download never prevents a file from opening as plain text.
+- Release signing is planned before unattended production updates are enabled.
 - Security reports should be sent privately according to [SECURITY.md](SECURITY.md).
 
 ## Licensing

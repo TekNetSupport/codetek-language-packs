@@ -18,3 +18,7 @@ Every published pack must have:
 - release provenance and maintainer approval.
 
 CodeTek should fail closed when verification fails and continue offering plain-text editing.
+
+The current v1.0.0 registry uses HTTPS and SHA-256 verification. Public-key
+release signing is a required follow-up before unattended production updates
+are enabled.
